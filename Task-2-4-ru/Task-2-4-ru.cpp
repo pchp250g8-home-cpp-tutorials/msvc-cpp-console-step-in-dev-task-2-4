@@ -46,6 +46,9 @@ int main(int argc, char* argv[])
         max_len = current_len;
     }
     std::cout << "Максимальная длина участка: " << max_len;
+    // Задержка вывода на экран до нажатия клавиши "Ввод"
+    std::cin.ignore();
+    std::cin.get();
     return 0;
 }
 

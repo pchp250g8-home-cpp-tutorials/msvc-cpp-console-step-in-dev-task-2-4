@@ -48,6 +48,9 @@ int main(int argc, char* argv[])
         max_len = current_len;
     }
     std::cout << "Maximum segment length: " << max_len;
+    // Pause the output until the "Enter" key is pressed
+    std::cin.ignore();
+    std::cin.get();
     return 0;
 }
 
